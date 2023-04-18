@@ -7,7 +7,8 @@ SEC: 13
 QUESTION:
 Build a serverless chatbot (voice and text) with Amazon Lex and integrate with Facebook
 STEPS AND SCREENSHOTS:
-1.	In management console open amazon lex and click on create a botcustom bot
+1.	In management console open amazon lex and click on create a bot: custom bot ![1](https://user-images.githubusercontent.com/96176674/232716983-16467c07-a6d7-4e2f-a063-810d042c0c44.jpg)
+
 2.	Click on create intent and give a unique name to the intent. Add sample greeting inputs given by the user. 
 3.	We can give the reply to the user using lambda or directly using amazon lex. In response, click on add message and type the response given by the bot.
 4.	Click on save intent and then click on Build. You can test the responses of the bot using Test ChatBot in the right panel.
